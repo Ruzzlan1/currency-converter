@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="nav-left">
+                    <a href="#">
+                        <img class="logo" src="/images/bank-logo.svg" alt="" srcset="">
+                    </a>
+                </div>
+
+                <div class="nav-content">
+                    <ul>
+                        <li><a class="in-page" href="#">BANK</a></li>
+                        <li><a href="#">BUSINESS</a></li>
+                        <li><a href="#">INVESTMENTS</a></li>
+                        <li><a href="#">INSURANCE</a></li>
+                        <li><a href="#">MOBILE</a></li>
+                        <li><a href="#">TRIPS</a></li>
+                        <li><a href="#">ENTERTAINMENT</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <button class="btn-login">Sign In</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-header">
+                <h1 class="title">Currency converter</h1>
+            </div>
+            <div class="main-content">
+                <div class="boxes">
+                    <div class="box input">
+                        <span class="box-title">l have</span>
+                        <div class="btn-values input-select">
+                            <button class="btn-value btn-first-col btn-active" value="RUB">RUB</button>
+                            <button class="btn-value btn-mid-col" value="USD">USD</button>
+                            <button class="btn-value btn-mid-col" value="EUR">EUR</button>
+                            <button class="btn-value btn-last-col" value="GBP">GBP</button>
+                        </div>
+                        <div class="area input-area">
+                            <input class="amount" type="text" inputmode="decimal" value="1" maxlength="13"
+                                placeholder="Type value...">
+                            <span class="currency-rate"></span>
+                        </div>
+                    </div>
+                    <div class="box output">
+                        <span class="box-title">l want to get</span>
+                        <div class="btn-values output-select">
+                            <button class="btn-value btn-first-col" value="RUB">RUB</button>
+                            <button class="btn-value btn-mid-col btn-active" value="USD">USD</button>
+                            <button class="btn-value btn-mid-col" value="EUR">EUR</button>
+                            <button class="btn-value btn-last-col" value="GBP">GBP</button>
+                        </div>
+                        <div class="area output-area">
+                            <input class="amount" type="text" inputmode="decimal" value="0.012498" maxlength="13"
+                                placeholder="Type value...">
+                            <span class="currency-rate"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

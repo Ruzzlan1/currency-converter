@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2vw;
+}
+
+
+  .header {
+    padding: 1vw 6vw;
+    background: #F5F5F6;
+  }
+  .header .nav {
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .nav .nav-menu {
+    display: none;
+  }
+  .header .nav .logo {
+    width: 8vw;
+  }
+  .header .nav .hamburger {
+    display: none;
+  }
+  .header .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .nav ul a {
+    color: #959BA4;
+  }
+  .header .nav ul li {
+    margin-right: 3vw;
+  }
+  .header .nav ul .sign-in {
+    display: none;
+  }
+  .header .nav ul .in-page {
+    color: #000000;
+  }
+  .header .nav ul a:hover {
+    cursor: pointer;
+    color: #000000;
+  }
+  .header .nav .btn-login {
+    font-weight: 500;
+    padding: 0.8vw 1.5vw;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: none;
+  }
+  .header .nav .btn-login:hover {
+    cursor: pointer;
+  }
+  .main {
+    margin-left: 22vw;
+  }
+  .main .main-header {
+    margin-top: 5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main .main-header .title {
+    margin-right: 20vw;
+    font-weight: 700;
+    font-size: 3.4vw;
+  }
+  .main .main-content {
+    margin-top: 3vw;
+  }
+  .main .main-content .boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main .main-content .boxes .box {
+    width: 24vw;
+    margin-right: 12vw;
+  }
+  .main .main-content .boxes .box .box-title {
+    display: block;
+    color: #9F9F9F;
+    margin-bottom: 1vw;
+  }
+  .main .main-content .boxes .box .btn-values {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+  }
+  .main .main-content .boxes .box .btn-values button {
+    border: none;
+    border-right: 1px solid #E5E5E5;
+    outline: none;
+    background: none;
+    width: 6vw;
+    padding: 0.8vw 0;
+    color: #C6C6C6;
+  }
+  .main .main-content .boxes .box .btn-values .btn-active {
+    background: #833AE0;
+    color: #FFFFFF;
+  }
+  .main .main-content .boxes .box .btn-values .btn-first-col {
+    border-radius: 3px 0px 0px 3px;
+  }
+  .main .main-content .boxes .box .btn-values .btn-mid-col {
+    border-radius: 0px;
+  }
+  .main .main-content .boxes .box .btn-values .btn-last-col {
+    border-right: none;
+    border-radius: 0px 3px 3px 0px;
+  }
+  .main .main-content .boxes .box .btn-values .btn-value:hover {
+    -webkit-transition: ease .7s;
+    transition: ease .7s;
+    background: #833AE0;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  .main .main-content .boxes .box .area {
+    margin-top: 2vw;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+  }
+  .main .main-content .boxes .box .area .amount {
+    font-weight: 700;
+    font-size: 3vw;
+    padding: 1vw 0 0 1vw;
+    border: none;
+    width: 100%;
+    outline: none;
+    margin-bottom: 1vw;
+  }
+  .main .main-content .boxes .box .area .currency-rate {
+    display: block;
+    color: #C6C6C6;
+    padding: 1vw;
+  }
+
+/*# sourceMappingURL=style.css.map */
